@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.padding-example {
+  background-color: lightblue;
+  border: 2px solid blue;
+  padding: 20px;
+}
+
+.margin-example {
+  background-color: blueviolet;
+  border: 2px solid rgb(208, 255, 0);
+  margin: 20px;
+}
+
+.regular-box {
+  border: 20px solid purple;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  margin: 40px;
+}
+
+.border-box {
+  border: 10px solid purple;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+.inline-example {
+  background-color: blueviolet;
+  padding: 5px;
+  margin: 0 15px;
+  border: 1px solid black;
+}
+
+.border-examples {
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
+  border-width: 15px 15px 10px 2px;
+  border-style: groove;
+}
+
+.overflow {
+  margin-top: 50px;
+  height: 50px;
+  width: 250px;
+  border: 1px solid black;
+  overflow: auto;
+}
